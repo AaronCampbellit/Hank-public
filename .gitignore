@@ -1,0 +1,25 @@
+.DS_Store
+
+# Xcode user state
+*.xcuserstate
+*.pbxuser
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# Local build artifacts
+DerivedData/
+DerivedData-*/
+tmp/
+
+# Nested SwiftPM build state
+.build/
+.swiftpm/
+
+# Optional local networking rebuild; not linked by the application
+/Vendor/TailscaleKit/TailscaleKit.xcframework/
+
+# Private local agent/browser runs
+/.codex/
+/.playwright/
+/.playwright-cli/

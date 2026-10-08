@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300000000000000000000001 /* HankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* HankApp.swift */; };
+		300000000000000000000002 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* AppModels.swift */; };
+		300000000000000000000003 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* Services.swift */; };
+		300000000000000000000004 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* AuthView.swift */; };
+		300000000000000000000005 /* DashboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* DashboardStore.swift */; };
+		300000000000000000000006 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000006 /* DashboardView.swift */; };
+		300000000000000000000007 /* FileBrowserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000007 /* FileBrowserStore.swift */; };
+		300000000000000000000008 /* FileBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* FileBrowserView.swift */; };
+		300000000000000000000009 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000009 /* SettingsStore.swift */; };
+		30000000000000000000000A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000A /* SettingsView.swift */; };
+		30000000000000000000000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000B /* Assets.xcassets */; };
+		30000000000000000000000C /* AuthAndKeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000D /* AuthAndKeychainTests.swift */; };
+		30000000000000000000000D /* HomeAssistantLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000E /* HomeAssistantLogicTests.swift */; };
+		30000000000000000000000E /* SupportLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000F /* SupportLogicTests.swift */; };
+		300000000000000000000010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000012 /* LaunchScreen.storyboard */; };
+		300000000000000000000011 /* NotesServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000013 /* NotesServices.swift */; };
+		300000000000000000000012 /* NotesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000014 /* NotesStore.swift */; };
+		300000000000000000000013 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000015 /* NotesView.swift */; };
+		300000000000000000000014 /* NotesLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000016 /* NotesLogicTests.swift */; };
+		300000000000000000000015 /* LocalFileServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000017 /* LocalFileServices.swift */; };
+		300000000000000000000017 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000019 /* ShareViewController.swift */; };
+		300000000000000000000018 /* HankShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 200000000000000000000023 /* HankShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		300000000000000000000019 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000024 /* SafariView.swift */; };
+		30000000000000000000001A /* CalendarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000025 /* CalendarStore.swift */; };
+		30000000000000000000001B /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000026 /* CalendarView.swift */; };
+		30000000000000000000001C /* CalendarLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000027 /* CalendarLogicTests.swift */; };
+		30000000000000000000001D /* HankAssistantStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000028 /* HankAssistantStore.swift */; };
+		30000000000000000000001E /* HankAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000029 /* HankAssistantView.swift */; };
+		30000000000000000000001F /* NotificationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000002A /* NotificationServices.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		900000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 700000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 600000000000000000000001;
+			remoteInfo = Hank;
+		};
+		900000000000000000000004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 700000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 600000000000000000000003;
+			remoteInfo = HankShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		40000000000000000000000A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				300000000000000000000018 /* HankShareExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		200000000000000000000001 /* HankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HankApp.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* AppModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModels.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		200000000000000000000005 /* DashboardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardStore.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		200000000000000000000007 /* FileBrowserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserStore.swift; sourceTree = "<group>"; };
+		200000000000000000000008 /* FileBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserView.swift; sourceTree = "<group>"; };
+		200000000000000000000009 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		20000000000000000000000A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		20000000000000000000000B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20000000000000000000000C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20000000000000000000000D /* AuthAndKeychainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAndKeychainTests.swift; sourceTree = "<group>"; };
+		20000000000000000000000E /* HomeAssistantLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssistantLogicTests.swift; sourceTree = "<group>"; };
+		20000000000000000000000F /* SupportLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportLogicTests.swift; sourceTree = "<group>"; };
+		200000000000000000000010 /* Hank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000011 /* HankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000012 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		200000000000000000000013 /* NotesServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesServices.swift; sourceTree = "<group>"; };
+		200000000000000000000014 /* NotesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesStore.swift; sourceTree = "<group>"; };
+		200000000000000000000015 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		200000000000000000000016 /* NotesLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesLogicTests.swift; sourceTree = "<group>"; };
+		200000000000000000000017 /* LocalFileServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileServices.swift; sourceTree = "<group>"; };
+		200000000000000000000019 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		200000000000000000000020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200000000000000000000021 /* HankShareExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HankShareExtension.entitlements; sourceTree = "<group>"; };
+		200000000000000000000022 /* Hank.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hank.entitlements; sourceTree = "<group>"; };
+		200000000000000000000023 /* HankShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HankShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000024 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		200000000000000000000025 /* CalendarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarStore.swift; sourceTree = "<group>"; };
+		200000000000000000000026 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		200000000000000000000027 /* CalendarLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarLogicTests.swift; sourceTree = "<group>"; };
+		200000000000000000000028 /* HankAssistantStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HankAssistantStore.swift; sourceTree = "<group>"; };
+		200000000000000000000029 /* HankAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HankAssistantView.swift; sourceTree = "<group>"; };
+		20000000000000000000002A /* NotificationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationServices.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		400000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400000000000000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000002 /* Hank */,
+				100000000000000000000011 /* HankShareExtension */,
+				10000000000000000000000C /* HankTests */,
+				10000000000000000000000D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000002 /* Hank */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000003 /* App */,
+				100000000000000000000004 /* Core */,
+				100000000000000000000006 /* Features */,
+				10000000000000000000000B /* Resources */,
+			);
+			path = Hank;
+			sourceTree = "<group>";
+		};
+		100000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000001 /* HankApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		100000000000000000000004 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000005 /* Models */,
+				10000000000000000000000E /* Services */,
+				100000000000000000000010 /* UI */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		100000000000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000002 /* AppModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		100000000000000000000006 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000007 /* Auth */,
+				100000000000000000000012 /* Calendar */,
+				100000000000000000000008 /* Dashboard */,
+				100000000000000000000009 /* FileBrowser */,
+				100000000000000000000013 /* HankAssistant */,
+				10000000000000000000000F /* Notes */,
+				10000000000000000000000A /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		100000000000000000000007 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000004 /* AuthView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		100000000000000000000008 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000005 /* DashboardStore.swift */,
+				200000000000000000000006 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		100000000000000000000009 /* FileBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000007 /* FileBrowserStore.swift */,
+				200000000000000000000008 /* FileBrowserView.swift */,
+			);
+			path = FileBrowser;
+			sourceTree = "<group>";
+		};
+		10000000000000000000000A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000009 /* SettingsStore.swift */,
+				20000000000000000000000A /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		10000000000000000000000B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20000000000000000000000B /* Assets.xcassets */,
+				200000000000000000000012 /* LaunchScreen.storyboard */,
+				20000000000000000000000C /* Info.plist */,
+				200000000000000000000022 /* Hank.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		10000000000000000000000C /* HankTests */ = {
+			isa = PBXGroup;
+			children = (
+				20000000000000000000000D /* AuthAndKeychainTests.swift */,
+				200000000000000000000027 /* CalendarLogicTests.swift */,
+				20000000000000000000000E /* HomeAssistantLogicTests.swift */,
+				200000000000000000000016 /* NotesLogicTests.swift */,
+				20000000000000000000000F /* SupportLogicTests.swift */,
+			);
+			path = HankTests;
+			sourceTree = "<group>";
+		};
+		10000000000000000000000D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000010 /* Hank.app */,
+				200000000000000000000023 /* HankShareExtension.appex */,
+				200000000000000000000011 /* HankTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10000000000000000000000E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000003 /* Services.swift */,
+				200000000000000000000017 /* LocalFileServices.swift */,
+				200000000000000000000013 /* NotesServices.swift */,
+				20000000000000000000002A /* NotificationServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		10000000000000000000000F /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000014 /* NotesStore.swift */,
+				200000000000000000000015 /* NotesView.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		100000000000000000000010 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000024 /* SafariView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		100000000000000000000011 /* HankShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000019 /* ShareViewController.swift */,
+				200000000000000000000020 /* Info.plist */,
+				200000000000000000000021 /* HankShareExtension.entitlements */,
+			);
+			path = HankShareExtension;
+			sourceTree = "<group>";
+		};
+		100000000000000000000012 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000025 /* CalendarStore.swift */,
+				200000000000000000000026 /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		100000000000000000000013 /* HankAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000028 /* HankAssistantStore.swift */,
+				200000000000000000000029 /* HankAssistantView.swift */,
+			);
+			path = HankAssistant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		600000000000000000000001 /* Hank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 500000000000000000000003 /* Build configuration list for PBXNativeTarget "Hank" */;
+			buildPhases = (
+				400000000000000000000003 /* Sources */,
+				400000000000000000000001 /* Frameworks */,
+				400000000000000000000004 /* Resources */,
+				40000000000000000000000A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900000000000000000000003 /* PBXTargetDependency */,
+			);
+			name = Hank;
+			productName = Hank;
+			productReference = 200000000000000000000010 /* Hank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		600000000000000000000002 /* HankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 500000000000000000000004 /* Build configuration list for PBXNativeTarget "HankTests" */;
+			buildPhases = (
+				400000000000000000000005 /* Sources */,
+				400000000000000000000002 /* Frameworks */,
+				400000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900000000000000000000002 /* PBXTargetDependency */,
+			);
+			name = HankTests;
+			productName = HankTests;
+			productReference = 200000000000000000000011 /* HankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		600000000000000000000003 /* HankShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50000000000000000000000B /* Build configuration list for PBXNativeTarget "HankShareExtension" */;
+			buildPhases = (
+				400000000000000000000008 /* Sources */,
+				400000000000000000000007 /* Frameworks */,
+				400000000000000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HankShareExtension;
+			productName = HankShareExtension;
+			productReference = 200000000000000000000023 /* HankShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		700000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2604;
+				LastUpgradeCheck = 2604;
+				TargetAttributes = {
+					600000000000000000000001 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					600000000000000000000002 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = 600000000000000000000001;
+					};
+					600000000000000000000003 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = 500000000000000000000001 /* Build configuration list for PBXProject "Hank" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 100000000000000000000001;
+			productRefGroup = 10000000000000000000000D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				600000000000000000000001 /* Hank */,
+				600000000000000000000003 /* HankShareExtension */,
+				600000000000000000000002 /* HankTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		400000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30000000000000000000000B /* Assets.xcassets in Resources */,
+				300000000000000000000010 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400000000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		400000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300000000000000000000001 /* HankApp.swift in Sources */,
+				300000000000000000000002 /* AppModels.swift in Sources */,
+				300000000000000000000003 /* Services.swift in Sources */,
+				300000000000000000000004 /* AuthView.swift in Sources */,
+				300000000000000000000005 /* DashboardStore.swift in Sources */,
+				300000000000000000000006 /* DashboardView.swift in Sources */,
+				30000000000000000000001A /* CalendarStore.swift in Sources */,
+				30000000000000000000001B /* CalendarView.swift in Sources */,
+				30000000000000000000001D /* HankAssistantStore.swift in Sources */,
+				30000000000000000000001E /* HankAssistantView.swift in Sources */,
+				300000000000000000000007 /* FileBrowserStore.swift in Sources */,
+				300000000000000000000008 /* FileBrowserView.swift in Sources */,
+				300000000000000000000019 /* SafariView.swift in Sources */,
+				300000000000000000000015 /* LocalFileServices.swift in Sources */,
+				300000000000000000000011 /* NotesServices.swift in Sources */,
+				30000000000000000000001F /* NotificationServices.swift in Sources */,
+				300000000000000000000012 /* NotesStore.swift in Sources */,
+				300000000000000000000013 /* NotesView.swift in Sources */,
+				300000000000000000000009 /* SettingsStore.swift in Sources */,
+				30000000000000000000000A /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30000000000000000000000C /* AuthAndKeychainTests.swift in Sources */,
+				30000000000000000000001C /* CalendarLogicTests.swift in Sources */,
+				30000000000000000000000D /* HomeAssistantLogicTests.swift in Sources */,
+				300000000000000000000014 /* NotesLogicTests.swift in Sources */,
+				30000000000000000000000E /* SupportLogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400000000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300000000000000000000017 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		900000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 600000000000000000000001 /* Hank */;
+			targetProxy = 900000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		900000000000000000000003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 600000000000000000000003 /* HankShareExtension */;
+			targetProxy = 900000000000000000000004 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		500000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		500000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		500000000000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APS_ENVIRONMENT = development;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = Hank/Hank.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TZDE39HP8;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Hank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropfile.Hank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		500000000000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APS_ENVIRONMENT = production;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = Hank/Hank.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TZDE39HP8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Hank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropfile.Hank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		500000000000000000000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropfile.HankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hank.app/Hank";
+			};
+			name = Debug;
+		};
+		50000000000000000000000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropfile.HankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hank.app/Hank";
+			};
+			name = Release;
+		};
+		50000000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HankShareExtension/HankShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TZDE39HP8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HankShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropfile.Hank.ShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50000000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HankShareExtension/HankShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9TZDE39HP8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HankShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropfile.Hank.ShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		500000000000000000000001 /* Build configuration list for PBXProject "Hank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500000000000000000000005 /* Debug */,
+				500000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		500000000000000000000003 /* Build configuration list for PBXNativeTarget "Hank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500000000000000000000007 /* Debug */,
+				500000000000000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		500000000000000000000004 /* Build configuration list for PBXNativeTarget "HankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500000000000000000000009 /* Debug */,
+				50000000000000000000000A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50000000000000000000000B /* Build configuration list for PBXNativeTarget "HankShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50000000000000000000000C /* Debug */,
+				50000000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 700000000000000000000001 /* Project object */;
+}

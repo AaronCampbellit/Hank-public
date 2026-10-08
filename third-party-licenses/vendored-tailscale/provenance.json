@@ -1,0 +1,394 @@
+[
+  {
+    "component": "github.com/tailscale/libtailscale",
+    "version": "v0.0.0-20260228020650-5e89501def80+dirty",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__tailscale__libtailscale/v0.0.0-20260228020650-5e89501def80_dirty/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/tailscale/libtailscale/5e89501def80/LICENSE",
+    "sha256": "d6e14a92f27cd6c82f8914041c1bb43819fcf3167b827b9198c2c803d4dff5d3"
+  },
+  {
+    "component": "filippo.io/edwards25519",
+    "version": "v1.1.0",
+    "copy": "third-party-licenses/vendored-tailscale/filippo.io__edwards25519/v1.1.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/FiloSottile/edwards25519/v1.1.0/LICENSE",
+    "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2",
+    "version": "v1.41.0",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2/v1.41.0/LICENSE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/v1.41.0/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2",
+    "version": "v1.41.0",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2/v1.41.0/NOTICE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/v1.41.0/NOTICE.txt",
+    "sha256": "a6e830174d62dafad3a718384772ea1f4c0e27989f050932dc442a5e3ddad080"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/config",
+    "version": "v1.29.5",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__config/v1.29.5/LICENSE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/config/v1.29.5/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/config",
+    "version": "v1.29.5",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__config/v1.29.5/NOTICE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/config/v1.29.5/NOTICE.txt",
+    "sha256": "a6e830174d62dafad3a718384772ea1f4c0e27989f050932dc442a5e3ddad080"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/credentials",
+    "version": "v1.17.58",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__credentials/v1.17.58/LICENSE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/credentials/v1.17.58/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/credentials",
+    "version": "v1.17.58",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__credentials/v1.17.58/NOTICE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/credentials/v1.17.58/NOTICE.txt",
+    "sha256": "a6e830174d62dafad3a718384772ea1f4c0e27989f050932dc442a5e3ddad080"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+    "version": "v1.16.27",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__feature__ec2__imds/v1.16.27/LICENSE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/feature/ec2/imds/v1.16.27/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+    "version": "v1.16.27",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__feature__ec2__imds/v1.16.27/NOTICE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/feature/ec2/imds/v1.16.27/NOTICE.txt",
+    "sha256": "a6e830174d62dafad3a718384772ea1f4c0e27989f050932dc442a5e3ddad080"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/internal/configsources",
+    "version": "v1.4.16",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__internal__configsources/v1.4.16/LICENSE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/internal/configsources/v1.4.16/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/internal/configsources",
+    "version": "v1.4.16",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__internal__configsources/v1.4.16/NOTICE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/internal/configsources/v1.4.16/NOTICE.txt",
+    "sha256": "a6e830174d62dafad3a718384772ea1f4c0e27989f050932dc442a5e3ddad080"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+    "version": "v2.7.16",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__internal__endpoints__v2/v2.7.16/LICENSE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/internal/endpoints/v2.7.16/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+    "version": "v2.7.16",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__internal__endpoints__v2/v2.7.16/NOTICE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/internal/endpoints/v2.7.16/NOTICE.txt",
+    "sha256": "a6e830174d62dafad3a718384772ea1f4c0e27989f050932dc442a5e3ddad080"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/internal/ini",
+    "version": "v1.8.2",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__internal__ini/v1.8.2/LICENSE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/internal/ini/v1.8.2/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/internal/ini",
+    "version": "v1.8.2",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__internal__ini/v1.8.2/NOTICE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/internal/ini/v1.8.2/NOTICE.txt",
+    "sha256": "a6e830174d62dafad3a718384772ea1f4c0e27989f050932dc442a5e3ddad080"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+    "version": "v1.13.4",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__service__internal__accept-encoding/v1.13.4/LICENSE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/service/internal/accept-encoding/v1.13.4/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+    "version": "v1.13.4",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__service__internal__accept-encoding/v1.13.4/NOTICE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/service/internal/accept-encoding/v1.13.4/NOTICE.txt",
+    "sha256": "a6e830174d62dafad3a718384772ea1f4c0e27989f050932dc442a5e3ddad080"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+    "version": "v1.13.16",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__service__internal__presigned-url/v1.13.16/LICENSE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/service/internal/presigned-url/v1.13.16/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+    "version": "v1.13.16",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__service__internal__presigned-url/v1.13.16/NOTICE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/service/internal/presigned-url/v1.13.16/NOTICE.txt",
+    "sha256": "a6e830174d62dafad3a718384772ea1f4c0e27989f050932dc442a5e3ddad080"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/service/sso",
+    "version": "v1.24.14",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__service__sso/v1.24.14/LICENSE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/service/sso/v1.24.14/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/service/sso",
+    "version": "v1.24.14",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__service__sso/v1.24.14/NOTICE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/service/sso/v1.24.14/NOTICE.txt",
+    "sha256": "a6e830174d62dafad3a718384772ea1f4c0e27989f050932dc442a5e3ddad080"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+    "version": "v1.28.13",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__service__ssooidc/v1.28.13/LICENSE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/service/ssooidc/v1.28.13/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+    "version": "v1.28.13",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__service__ssooidc/v1.28.13/NOTICE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/service/ssooidc/v1.28.13/NOTICE.txt",
+    "sha256": "a6e830174d62dafad3a718384772ea1f4c0e27989f050932dc442a5e3ddad080"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/service/sts",
+    "version": "v1.41.5",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__service__sts/v1.41.5/LICENSE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/service/sts/v1.41.5/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "github.com/aws/aws-sdk-go-v2/service/sts",
+    "version": "v1.41.5",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__aws-sdk-go-v2__service__sts/v1.41.5/NOTICE.txt",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/aws-sdk-go-v2/service/sts/v1.41.5/NOTICE.txt",
+    "sha256": "a6e830174d62dafad3a718384772ea1f4c0e27989f050932dc442a5e3ddad080"
+  },
+  {
+    "component": "github.com/aws/smithy-go",
+    "version": "v1.24.0",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__smithy-go/v1.24.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/smithy-go/v1.24.0/LICENSE",
+    "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+  },
+  {
+    "component": "github.com/aws/smithy-go",
+    "version": "v1.24.0",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__aws__smithy-go/v1.24.0/NOTICE",
+    "primary_source_url": "https://raw.githubusercontent.com/aws/smithy-go/v1.24.0/NOTICE",
+    "sha256": "d4290ed64c2edd0fce1d84e3f9dfb2881240fe534def76b8cd29ed6af683e287"
+  },
+  {
+    "component": "github.com/creachadair/msync",
+    "version": "v0.7.1",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__creachadair__msync/v0.7.1/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/creachadair/msync/v0.7.1/LICENSE",
+    "sha256": "1d45f7789b678c742a045d7a6923c2762f667dc2523b9b4c01fe240d24c83083"
+  },
+  {
+    "component": "github.com/fxamacker/cbor/v2",
+    "version": "v2.9.0",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__fxamacker__cbor__v2/v2.9.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/fxamacker/cbor/v2.9.0/LICENSE",
+    "sha256": "78cad457d5ea7318230f3d969d4cdf29cef45524a1fc8ca3a97646da1ad7a841"
+  },
+  {
+    "component": "github.com/gaissmai/bart",
+    "version": "v0.18.0",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__gaissmai__bart/v0.18.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/gaissmai/bart/v0.18.0/LICENSE",
+    "sha256": "12d27746d111da33969df0ecaa9b799e22c42db7d0b6a5164f383ec934233a41"
+  },
+  {
+    "component": "github.com/go-json-experiment/json",
+    "version": "v0.0.0-20250813024750-ebf49471dced",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__go-json-experiment__json/v0.0.0-20250813024750-ebf49471dced/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/go-json-experiment/json/ebf49471dced/LICENSE",
+    "sha256": "14a34c4db2d21bf9cf80d028b802cd22fed9bf597a6c2db7ce30ee6ffd04967a"
+  },
+  {
+    "component": "github.com/golang/groupcache",
+    "version": "v0.0.0-20241129210726-2c02b8208cf8",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__golang__groupcache/v0.0.0-20241129210726-2c02b8208cf8/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/golang/groupcache/2c02b8208cf8/LICENSE",
+    "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
+  },
+  {
+    "component": "github.com/google/btree",
+    "version": "v1.1.3",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__google__btree/v1.1.3/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/google/btree/v1.1.3/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "github.com/google/uuid",
+    "version": "v1.6.0",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__google__uuid/v1.6.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/google/uuid/v1.6.0/LICENSE",
+    "sha256": "0a8d61ed3cbfd5312326e8126c31ce9c627a283adc99131b56896d29ada04b2d"
+  },
+  {
+    "component": "github.com/hdevalence/ed25519consensus",
+    "version": "v0.2.0",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__hdevalence__ed25519consensus/v0.2.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/hdevalence/ed25519consensus/v0.2.0/LICENSE",
+    "sha256": "789be8b214a1871d8d1a5ab157f8f4ad74cd889087762bd5cced07ed589b6bc7"
+  },
+  {
+    "component": "github.com/huin/goupnp",
+    "version": "v1.3.0",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__huin__goupnp/v1.3.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/huin/goupnp/v1.3.0/LICENSE",
+    "sha256": "440688406aeb546bad566031c8a01531a01a683166f7010380fcc0f68d830311"
+  },
+  {
+    "component": "github.com/klauspost/compress",
+    "version": "v1.18.2",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__klauspost__compress/v1.18.2/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/klauspost/compress/v1.18.2/LICENSE",
+    "sha256": "0d9e582ee4bff57bf1189c9e514e6da7ce277f9cd3bc2d488b22fbb39a6d87cf"
+  },
+  {
+    "component": "github.com/pires/go-proxyproto",
+    "version": "v0.8.1",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__pires__go-proxyproto/v0.8.1/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/pires/go-proxyproto/v0.8.1/LICENSE",
+    "sha256": "666f1951be1d543e744818d232bb311a4a310fd1d344288642c796fca39af3c7"
+  },
+  {
+    "component": "github.com/prometheus-community/pro-bing",
+    "version": "v0.4.0",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__prometheus-community__pro-bing/v0.4.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/prometheus-community/pro-bing/v0.4.0/LICENSE",
+    "sha256": "4d03a1f133c70aae7bb91daa3b1152facb48d4387958a200d5bb17f10f36cd2d"
+  },
+  {
+    "component": "github.com/tailscale/peercred",
+    "version": "v0.0.0-20250107143737-35a0c7bd7edc",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__tailscale__peercred/v0.0.0-20250107143737-35a0c7bd7edc/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/tailscale/peercred/35a0c7bd7edc/LICENSE",
+    "sha256": "8e0db394107481655ef6a46baace86aaead5fc9b4c5ce83b9fa16037e891d03c"
+  },
+  {
+    "component": "github.com/tailscale/wireguard-go",
+    "version": "v0.0.0-20250716170648-1d0488a3d7da",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__tailscale__wireguard-go/v0.0.0-20250716170648-1d0488a3d7da/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/tailscale/wireguard-go/1d0488a3d7da/LICENSE",
+    "sha256": "91276db973f25602d1aa43491f59cbc84cb88e6f151e1d0cc82a755563ce0195"
+  },
+  {
+    "component": "github.com/x448/float16",
+    "version": "v0.8.4",
+    "copy": "third-party-licenses/vendored-tailscale/github.com__x448__float16/v0.8.4/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/x448/float16/v0.8.4/LICENSE",
+    "sha256": "a555f1194fdac34da70fb416968f7e2217b02352c26c1eac2fa45fcb4290ae8d"
+  },
+  {
+    "component": "go4.org/mem",
+    "version": "v0.0.0-20240501181205-ae6ca9944745",
+    "copy": "third-party-licenses/vendored-tailscale/go4.org__mem/v0.0.0-20240501181205-ae6ca9944745/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/go4org/mem/ae6ca9944745/LICENSE",
+    "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+  },
+  {
+    "component": "go4.org/netipx",
+    "version": "v0.0.0-20231129151722-fdeea329fbba",
+    "copy": "third-party-licenses/vendored-tailscale/go4.org__netipx/v0.0.0-20231129151722-fdeea329fbba/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/go4org/netipx/fdeea329fbba/LICENSE",
+    "sha256": "1bfc4f32f4ec8ca8fce54bd2d97784f003786753a69a78ca74ffae1574037fb9"
+  },
+  {
+    "component": "golang.org/x/crypto",
+    "version": "v0.46.0",
+    "copy": "third-party-licenses/vendored-tailscale/golang.org__x__crypto/v0.46.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/golang/crypto/v0.46.0/LICENSE",
+    "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "component": "golang.org/x/exp",
+    "version": "v0.0.0-20250620022241-b7579e27df2b",
+    "copy": "third-party-licenses/vendored-tailscale/golang.org__x__exp/v0.0.0-20250620022241-b7579e27df2b/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/golang/exp/b7579e27df2b/LICENSE",
+    "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "component": "golang.org/x/net",
+    "version": "v0.48.0",
+    "copy": "third-party-licenses/vendored-tailscale/golang.org__x__net/v0.48.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/golang/net/v0.48.0/LICENSE",
+    "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "component": "golang.org/x/oauth2",
+    "version": "v0.32.0",
+    "copy": "third-party-licenses/vendored-tailscale/golang.org__x__oauth2/v0.32.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/golang/oauth2/v0.32.0/LICENSE",
+    "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "component": "golang.org/x/sync",
+    "version": "v0.19.0",
+    "copy": "third-party-licenses/vendored-tailscale/golang.org__x__sync/v0.19.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/golang/sync/v0.19.0/LICENSE",
+    "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "component": "golang.org/x/sys",
+    "version": "v0.40.0",
+    "copy": "third-party-licenses/vendored-tailscale/golang.org__x__sys/v0.40.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/golang/sys/v0.40.0/LICENSE",
+    "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "component": "golang.org/x/term",
+    "version": "v0.38.0",
+    "copy": "third-party-licenses/vendored-tailscale/golang.org__x__term/v0.38.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/golang/term/v0.38.0/LICENSE",
+    "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "component": "golang.org/x/text",
+    "version": "v0.32.0",
+    "copy": "third-party-licenses/vendored-tailscale/golang.org__x__text/v0.32.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/golang/text/v0.32.0/LICENSE",
+    "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "component": "golang.org/x/time",
+    "version": "v0.12.0",
+    "copy": "third-party-licenses/vendored-tailscale/golang.org__x__time/v0.12.0/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/golang/time/v0.12.0/LICENSE",
+    "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "component": "gvisor.dev/gvisor",
+    "version": "v0.0.0-20250205023644-9414b50a5633",
+    "copy": "third-party-licenses/vendored-tailscale/gvisor.dev__gvisor/v0.0.0-20250205023644-9414b50a5633/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/google/gvisor/9414b50a5633/LICENSE",
+    "sha256": "5af94223052169198cfa2195455b7d87209d9aa0fff4705822f328b4b272facb"
+  },
+  {
+    "component": "tailscale.com",
+    "version": "v1.94.1",
+    "copy": "third-party-licenses/vendored-tailscale/tailscale.com/v1.94.1/LICENSE",
+    "primary_source_url": "https://raw.githubusercontent.com/tailscale/tailscale/v1.94.1/LICENSE",
+    "sha256": "d1ee1c7947d4b2c1963ea214d5324f1d4c89f2f1d0f0224889b4dfb868dad725"
+  }
+]
